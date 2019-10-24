@@ -1,7 +1,9 @@
 export default {
+  MAX_ATTACHMENT_SIZE: 5000000,
+  STRIPE_KEY: "pk_test_2WpGn3UVjGDIhhRh848THZ6R00yxgxYT3a",
   s3: {
     REGION: "us-east-2",
-    BUCKET: "notes-licheng"
+    BUCKET: "licheng-notes"
   },
   apiGateway: {
     REGION: "us-east-2",
